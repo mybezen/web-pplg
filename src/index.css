@@ -76,8 +76,8 @@ body {
 	height: auto;
 	background: radial-gradient(
 			circle,
-			rgba(35, 129, 152, 0.852) 0%,
-			rgba(40, 17, 192, 0.905) 100%
+			rgba(79, 4, 119, 0.852) 0%,
+			rgba(65, 1, 108, 0.905) 50%
 		),
 		url("/Background.jpeg");
 	background-repeat: no-repeat;
@@ -137,7 +137,8 @@ body {
 }
 
 #BoxOldWeb Img {
-	filter: brightness(0) invert(1);
+
+	filter: invert(1);
 }
 
 #BoxClassIg {
@@ -266,7 +267,7 @@ body {
 #Mesh1 {
 	width: 100%;
 	position: absolute;
-	background-image: radial-gradient(at -66% 56.8%, hsl(204, 93%, 53%) 0px, transparent 50%);
+	background-image: radial-gradient(at -66% 56.8%, hsl(276, 93%, 53%) 0px, transparent 50%);
 	background-repeat: no-repeat, no-repeat;
 	z-index: -999;
 }
@@ -279,7 +280,7 @@ body {
 
 
 #Tabs {
-	background-image: radial-gradient(at 122.3% 55.5%, hsla(210, 93%, 53%, 0.492) 0px, transparent 50%),
+	background-image: radial-gradient(at 122.3% 55.5%, hsla(280, 100%, 50%, 0.492) 0px, transparent 50%),
 		radial-gradient(at 81.4% 65.2%, hsl(0, 0%, 12%) 0px, transparent 50%);
 }
 
@@ -404,8 +405,8 @@ input:focus {
 #Footer {
 	background: linear-gradient(
 		to top,
-		rgba(79, 9, 229, 0.39) 5%,
-		rgba(9, 13, 229, 0.149) 55%,
+		rgba(167, 9, 229, 0.39) 5%,
+		rgba(167, 9, 229, 0.149) 55%,
 		rgba(0, 0, 0, 0)
 	);
 }
