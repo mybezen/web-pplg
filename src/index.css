@@ -37,7 +37,7 @@ body {
 
 ::-webkit-scrollbar-track {
 	background-color: black;
-	background: rgb(67, 66, 66);
+	background: rgb(75, 68, 68);
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 	backdrop-filter: blur(31.6px);
 	-webkit-backdrop-filter: blur(11.6px);
@@ -76,8 +76,8 @@ body {
 	height: auto;
 	background: radial-gradient(
 			circle,
-			rgba(224, 107, 213, 0.8520658263305322) 0%,
-			rgba(75, 57, 198, 0.9052871148459384) 100%
+			rgba(35, 129, 152, 0.852) 0%,
+			rgba(40, 17, 192, 0.905) 100%
 		),
 		url("/Background.jpeg");
 	background-repeat: no-repeat;
@@ -202,12 +202,12 @@ body {
 
 #AngkaGradientPink {
 	-webkit-text-stroke: 1px #d41a773d; /* Menggunakan efek outline teks dengan warna hitam */
-	background: linear-gradient(to top right, #fab6e7, #d41a77 80%);
+	background: linear-gradient(to top right, #e600ff, #830fb9 80%);
 	filter: brightness(1.2);
 	-webkit-background-clip: text;
 	background-clip: text;
 	color: transparent;
-	text-shadow: #d41a77 2px 0 20px;
+	text-shadow: #ff00e1 2px 0 20px;
 }
 
 .slick-slide {
@@ -266,7 +266,7 @@ body {
 #Mesh1 {
 	width: 100%;
 	position: absolute;
-	background-image: radial-gradient(at -66% 56.8%, hsl(292, 93%, 53%) 0px, transparent 50%);
+	background-image: radial-gradient(at -66% 56.8%, hsl(204, 93%, 53%) 0px, transparent 50%);
 	background-repeat: no-repeat, no-repeat;
 	z-index: -999;
 }
@@ -279,7 +279,7 @@ body {
 
 
 #Tabs {
-	background-image: radial-gradient(at 122.3% 55.5%, hsla(292, 93%, 53%, 0.492) 0px, transparent 50%),
+	background-image: radial-gradient(at 122.3% 55.5%, hsla(210, 93%, 53%, 0.492) 0px, transparent 50%),
 		radial-gradient(at 81.4% 65.2%, hsl(0, 0%, 12%) 0px, transparent 50%);
 }
 
@@ -404,8 +404,8 @@ input:focus {
 #Footer {
 	background: linear-gradient(
 		to top,
-		rgba(218, 9, 229, 0.39) 5%,
-		rgba(218, 9, 229, 0.149) 55%,
+		rgba(79, 9, 229, 0.39) 5%,
+		rgba(9, 13, 229, 0.149) 55%,
 		rgba(0, 0, 0, 0)
 	);
 }

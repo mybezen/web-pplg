@@ -2,46 +2,46 @@ import Rating from "../components/Rating"
 
 const Footer = () => {
 	return (
-		<footer class="" id="Footer">
-			<div class="mx-auto w-full max-w-screen-xl px-8 py-6 lg:py-8">
-				<div class="md:flex md:justify-between">
-					<div class="mb-6 md:mb-0">
-						<a href="#" class="flex items-center">
+		<footer className="" id="Footer">
+			<div className="mx-auto w-full max-w-screen-xl px-8 py-6 lg:py-8">
+				<div className="md:flex md:justify-between">
+					<div className="mb-6 md:mb-0">
+						<a href="#" className="flex items-center">
 							<img
 								src="/LogoTKJ3.png"
 								alt=""
-								className="h-[4.5rem] w-[4.5rem] right-2 relative rounded-full brightness-200"
+								className=" w-72 right-24 bottom-20 relative rounded-full brightness-100"
 							/>
-							<span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+							<span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
 						</a>
 					</div>
-					<div class="grid grid-cols-2 sm:grid-cols-3">
+					<div className="grid grid-cols-2 sm:grid-cols-3">
 						<div className=" ">
-							<h2 class="mb-4 text-sm font-semibold uppercase text-white">CREATED BY</h2>
-							<ul class="text-gray-400 dark:text-gray-400 font-medium">
-								<li class="mb-2">
-									<a href="https://www.instagram.com/ekizr_/?hl=id" class="hover:underline">
-										EKIZR
+							<h2 className="mb-4 text-sm font-semibold uppercase text-white">CREATED BY</h2>
+							<ul className="text-gray-400 dark:text-gray-400 font-medium">
+								<li className="mb-2">
+									<a href="https://www.instagram.com/mybezen/?hl=id" className="hover:underline">
+										amrii (@mybezen)
 									</a>
 								</li>
 								<li>
-									<a href="https://www.instagram.com/dafyall/?hl=id" class="hover:underline">
-										DAFYALL
+									<a href="https://www.instagram.com/mybezen/?hl=id" className="hover:underline">
+										amri lagi
 									</a>
 								</li>
 							</ul>
 						</div>
 						<div className="">
-							<h2 class="mb-4 text-sm font-semibold uppercase text-white">Follow us</h2>
-							<ul class="text-gray-400 dark:text-gray-400 font-medium">
-								<li class="mb-2">
-									<a href="https://www.instagram.com/acetkjthree/?hl=id" class="hover:underline ">
+							<h2 className="mb-4 text-sm font-semibold uppercase text-white">Follow us</h2>
+							<ul className="text-gray-400 dark:text-gray-400 font-medium">
+								<li className="mb-2">
+									<a href="https://www.instagram.com/xrpl.forensix/" className="hover:underline ">
 										Instagram
 									</a>
 								</li>
 								<li>
-									<a href="https://www.youtube.com/@11TKJ3" class="hover:underline">
-										Youtube
+									<a href="" className="hover:underline">
+										Tiktok (Coming Soon)
 									</a>
 								</li>
 							</ul>
@@ -56,11 +56,11 @@ const Footer = () => {
 						<Rating />
 					</div>
 				</div>
-				<hr class="my-2 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-				<div class="sm:flex sm:items-center sm:justify-between">
-					<div class="flex mt-4 justify-center sm:mt-0">
+				<hr className="my-2 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+				<div className="sm:flex sm:items-center sm:justify-between">
+					<div className="flex mt-4 justify-center sm:mt-0">
 						<p className="text-[0.7rem] text-white opacity-70">
-							© {new Date().getFullYear()} Kelas XI TKJ 3 | Di Kelola Oleh Siswa TKJ 3
+							© {new Date().getFullYear()} Kelas X PPLG | Di Kelola Oleh Siswa X PPLG
 						</p>
 					</div>
 				</div>
